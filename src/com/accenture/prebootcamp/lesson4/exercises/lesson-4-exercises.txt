@@ -1,0 +1,173 @@
+---------------- Exercises ---------------------
+1) Find errors in this program and fix them:
+    pub class Hello World {
+
+        public void main(String args) (
+            system.oul.printn('Hello, World!'):
+        )
+    {
+
+
+2) Write a Java program to declare two integer variables, one float variable, and one string variable and
+  assign 10, 12.5, and "Java programming" to them respectively. Then display their values on the screen.
+
+
+3) Which data type would you use to represent the following values?
+    a) Child age
+    b) Employee salary
+    c) Whether somebody has children or not
+    d) Apartment letter (single letter)
+    e) Title of a book
+
+    Create a program which declares and initializes all these variables (any value you want) and outputs their
+    values. When naming variables, try to think of a good and descriptive identifiers for those variables.
+
+
+4)  a) Declare two float variables (x and y) and assign them values 2.5 and 5.4 (with separated declaration and
+    initialization)
+    b) Declare two float variables (a and b) and assign them values 3.5 and 6.4 (declaration and
+      initialization in the same statement)
+
+
+5) Find the errors in the following Java statements:
+   a) int a, b, c
+      a = 0
+   b) System.out.println('ab');
+   c) System.out.println( (3 + 2) – 1) );
+   d) int d = 3.2;
+   e) float e = 2.1;
+      int f = a;
+   f) int g = 10;
+      float h;
+      g = h;
+   g) {
+          int n;
+      }
+      n = 10;
+      System.out.println(n);
+   h) boolean a, b;
+      a = false, b = true;
+   i) int x;
+      x = 1;
+      r = x + 1;
+   j) String s = 'This is a string';
+   l) long number = 2000000000000000;
+      System.out.println(number);
+   m) char myChar = "b";
+      System.out.println(myChar);
+   n) final int myNumber = 20;
+      myNumber++;
+      System.out.println(myNumber);
+   o) float myFloat = 0.5;
+      System.out.println(myFloat);
+
+
+ 6) Write a Java program to print the sum of two numbers.
+    Test Data:
+    74 + 36
+    Expected Output :
+    Result is 110
+
+
+7) Write a program which assigns the sum of two variables
+   to other variable and outputs result:
+  int x = 5;
+  int y = 10;
+
+  Expected output:
+    Sum of 5 and 10 is 15
+
+
+8) Write a Java program calculates and prints the result of the following operations.
+      a. -5 + 8 * 6
+      b. (55+9) % 9
+      c. 20 + -3*5 / 8
+      d. 5 + 15 / 3 * 2 - 8 % 3
+  Expected Output :
+        43
+        1
+        19
+        13
+
+
+9) Write a Java program to compute the specified expressions and print the output.
+    Test Data:
+        ((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5))
+    Expected Output
+        2.138888888888889
+
+
+10) Change the following program to use compound assignments:
+    class ArithmeticDemo {
+
+         public static void main (String[] args){
+
+              int result = 1 + 2; // result is now 3
+              System.out.println(result);
+
+              result = result - 1; // result is now 2
+              System.out.println(result);
+
+              result = result * 2; // result is now 4
+              System.out.println(result);
+
+              result = result / 2; // result is now 2
+              System.out.println(result);
+
+              result = result + 8; // result is now 10
+              result = result % 7; // result is now 3
+              System.out.println(result);
+         }
+    }
+
+
+11) In the following program, explain why the value "6" is printed twice in a row:
+    class PrePostDemo {
+        public static void main(String[] args){
+            int i = 3;
+            i++;
+            System.out.println(i);    // "4"
+            ++i;
+            System.out.println(i);    // "5"
+            System.out.println(++i);  // "6"
+            System.out.println(i++);  // "6"
+            System.out.println(i);    // "7"
+        }
+    }
+
+
+12) Write a Java program to print "Hello" on screen and then print
+  your name on a separate line.
+   a) do it with two System.out.println statements
+   b) do it with one System.out.println statement
+  Expected Output :
+    Hello
+    John Doe
+
+
+13) Write a Java program to display the following text. Go to the editor
+   Sample Pattern :
+       J    a   v     v  a
+       J   a a   v   v  a a
+    J  J  aaaaa   V V  aaaaa
+     JJ  a     a   V  a     a
+
+
+14) Write a Java program to print the area and perimeter of a rectangle. Declare variables width and height,
+    assign them values 5.5 and 8.5. Then calculate are and perimeter and assign those values to new variables.
+    Print out the variables which contain area and perimeter.
+    Test Data:
+        Width = 5.5 Height = 8.5
+
+    Expected Output:
+        Area is 5.6 * 8.5 = 47.60
+        Perimeter is 2 * (5.6 + 8.5) = 28.20
+
+
+15) Write a program which prints out the division reminder of two variables
+    int a = 10;
+    int b = 3;
+
+    expected output:
+        reminder of 10 / 3 is 1
+
