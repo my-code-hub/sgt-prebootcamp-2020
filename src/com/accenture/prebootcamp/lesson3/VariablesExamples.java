@@ -45,6 +45,7 @@ public class VariablesExamples {
         System.out.println('N');
         System.out.println(20f);
         System.out.println(2000000000000000l);
+        System.out.println("Hello, World!");
 
         //final variables
         final int number3 = 3;
@@ -59,5 +60,6 @@ public class VariablesExamples {
         System.out.println(tinyValue);
 
         bigValue = tinyValue;
+
     }
 }
