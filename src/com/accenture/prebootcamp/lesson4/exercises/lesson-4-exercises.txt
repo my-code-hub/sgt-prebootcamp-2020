@@ -1,3 +1,9 @@
+    Hints:
+       Always format your code!
+       Blank new lines are redundant.
+       Every file should have a blank line at the end.
+       Always choose proper, descriptive identifiers for your variables!
+
 ---------------- Exercises ---------------------
 1) Find errors in this program and fix them:
     pub class Exercise 1 {
@@ -36,7 +42,7 @@
    c) System.out.println( (3 + 2) – 1) );
    d) int d = 3.2;
    e) float e = 2.1;
-      int f = a;
+      int f = e;
    f) int g = 10;
       float h;
       g = h;
