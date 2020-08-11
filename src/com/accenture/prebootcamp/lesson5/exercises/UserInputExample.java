@@ -24,7 +24,7 @@ public class UserInputExample {
 
         // Getting String input
         System.out.print("Enter text: ");
-        String myString = userInput.next();
+        String myString = userInput.nextLine();
         System.out.println("Text entered = " + myString);
 
         // Getting String input
