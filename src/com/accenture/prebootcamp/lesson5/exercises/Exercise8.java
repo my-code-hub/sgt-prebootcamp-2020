@@ -1,6 +1,5 @@
 package com.accenture.prebootcamp.lesson5.exercises;
 
-
 //8) Write a Java program calculates and prints the result of
 //   the following operations.
 //      a. -5 + 8 * 6
