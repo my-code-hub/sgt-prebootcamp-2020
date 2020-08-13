@@ -1,0 +1,30 @@
+************************* user input *****************************
+1) Write Java program to allow the user to input two integer values and then the program prints the results of adding,
+    subtracting, multiplying, and dividing among the two values.
+
+       Enter value a: 30
+       Enter value b: 10
+
+       The result 30 + 10 is 40.
+       The result 30 - 10 is 20;
+       The result of 30 * 10 is 300.
+       The result of 30 / 10 is 3.
+
+
+2) Write a Java program that reads a number in inches, converts it to meters.
+   Note: One inch is 0.0254 meter.
+       Test Data
+            Input a value for inch: 1000
+       Expected Output :
+            1000.0 inch is 25.4 meters
+
+
+3) Ask user to input three words and put them in this sentence:
+    Example:
+       Please input your name: John
+       Please input your job title: Programmer
+       Please input your age: 60
+
+    Expected output:
+    "Hello, my name is John and I'm Programmer. I'm 60 years old."
+
