@@ -28,3 +28,32 @@
     Expected output:
     "Hello, my name is John and I'm Programmer. I'm 60 years old."
 
+
+*********************** relational operators ******************************************************
+4) Ask user to input two numbers, compare them and output result:
+   Input:
+       Enter value a: 10
+       Enter value b: 10
+   Expected output:
+       is 10 equal to 10? - true
+       is 10 less than 10? - false
+       is 10 less or equal to 10? - true
+       is 10 greater than 10? - false
+       is 10 greater or equal to 10? - true
+
+
+5) Ask user to input two boolean values and compare them.
+    Input:
+       Enter b1: true
+       Enter b2: false
+
+    Expected output:
+       Is b1 and b2 equal? - false
+
+
+6) Ask user to input a whole number and output true, if it is even number and false if it is odd number
+    Hint: use reminder operator to divide number by two and get reminder (if reminder is 0 then it means it is even
+    number)
+
+
+7) Ask user to input a whole number and output false, if it is even number and true if it is odd number
