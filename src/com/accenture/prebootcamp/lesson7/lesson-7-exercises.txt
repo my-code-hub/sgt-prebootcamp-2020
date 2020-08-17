@@ -61,15 +61,16 @@
    Example 2:
      Input:
          Enter unit price: 25
-         Enter quantity: 100
+         Enter quantity: 99
       Output:
-         The revenue from sale: 2500.0 EUR
+         The revenue from sale: 2475.0 EUR
          Discount: 0.0 EUR (0.0%)
 
    Example 3:
      Input:
          Enter unit price: 25
-         Enter quantity: 120
+         Enter quantity: 121
      Output:
-         The revenue from sale: 2550.0 EUR
-         Discount: 450.0 EUR (0.0%)
+         The revenue from sale: 3025.0 EUR
+         Discount: 453,75 EUR (15.0%)
+
