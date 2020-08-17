@@ -17,7 +17,7 @@ public class ControlFlowExamples {
         if (a && b) {
             System.out.println("a and b is true");
         } else {
-            System.out.println("a or b is not true");
+            System.out.println("a and b is not true");
         }
 
         System.out.println("******************");
