@@ -71,6 +71,6 @@
          Enter unit price: 25
          Enter quantity: 121
      Output:
-         The revenue from sale: 2571,25 EUR
-         Discount: 453,75 EUR (15.0%)
+         The revenue from sale: 2571.25 EUR
+         Discount: 453.75 EUR (15.0%)
 
