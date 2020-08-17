@@ -1,0 +1,75 @@
+********** Control flow exercises *******
+1. Write a Java program to get a number from the user and print whether it is positive, negative or zero.
+    Test Data
+        Input number: 35
+    Expected Output :
+        Number is positive
+
+
+
+2. Write a program that asks user to input number and prints out the name of the corresponding day.
+   If user inputs any other number than 1 - 7, then print out "There is no such day, please enter numbers 1 - 7!"
+    example 1:
+        Input: 1
+        Output: Monday
+    example 2:
+        Input: 7
+        Output: Sunday
+
+
+
+3. Write a program that asks user to input three numbers:
+   and prints out the greatest number:
+    example:
+        input:
+            Please input number 1: 10
+            Please input number 2: 100
+            Please input number 3: 54
+        output:
+            greatest number is 100!
+
+
+
+4. Write a Java program that determines a student’s grade.
+   The program will read three types of scores (quiz, mid-term, and final scores) and determine the grade
+   based on the following rules:
+       * A: average score is equal to or greater than 90%
+       * B: average score is equal to or greater than 70% and less than 90%
+       * C: average score is equal to or greater than 50% and less than 70%
+       * F: average score is less than 50%
+   Input:
+       Quiz score: 80
+       Mid-term score: 68
+       Final score: 90
+   Output:
+       Your grade is B.
+
+
+
+5. Write a Java program to calculate the revenue from a sale based on the unit price and quantity of a product input by
+ the user. The discount rate is 10% if the quantity purchased is between 100 and 120 units, and 15% for the quantity
+ greater than 120 units. If the quantity purchased is less than 100 units, the discount rate is 0%. See the 3
+ examples below:
+   Example 1:
+     Input:
+        Enter unit price: 25
+        Enter quantity: 110
+     Output:
+        The revenue from sale: 2475.0 EUR
+        Discount: 275.0 EUR (10.0%)
+
+   Example 2:
+     Input:
+         Enter unit price: 25
+         Enter quantity: 100
+      Output:
+         The revenue from sale: 2500.0 EUR
+         Discount: 0.0 EUR (0.0%)
+
+   Example 3:
+     Input:
+         Enter unit price: 25
+         Enter quantity: 120
+     Output:
+         The revenue from sale: 2550.0 EUR
+         Discount: 450.0 EUR (0.0%)
