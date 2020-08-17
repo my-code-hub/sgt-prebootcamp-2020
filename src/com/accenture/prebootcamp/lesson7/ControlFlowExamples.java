@@ -1,4 +1,4 @@
-package com.accenture.prebootcamp.lesson6;
+package com.accenture.prebootcamp.lesson7;
 
 public class ControlFlowExamples {
 
