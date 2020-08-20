@@ -1,0 +1,28 @@
+1. declare and initialize array with six arbitrary whole numbers. Write a code which:
+    1) prints out all of the numbers from array
+    2) prints out all of the numbers from array in reverse order
+
+
+2. Define an array with six arbitrary whole numbers. Write a program that finds second highest number in array and
+   the lowest number in array. Output those numbers.
+
+
+3. Write a program which asks user to input the size of array. Declare and initialize array of
+   whole numbers with such size. Then ask user to input numbers and fill the array.
+   Then calculate and output the average value of elements in this array.
+
+
+4. Declare and initialize array with six arbitrary whole numbers. Write a Java program  which asks input from user (a
+  whole number) and tests if an array contains this value. The program finishes only after user has entered a
+  number which exists in array two times.
+
+
+5. Declare and initialize array with four arbitrary whole numbers. Write a Java program to copy this array by iterating
+ it.
+
+
+6. Ask user to input positive arbitrary whole number and print Fibonacci sequence till that number. Also create new
+   array and save all of the fibonacci numbers in this array. For example, if user inputs number 10 the output should
+   be:
+       0 + 1 + 1 + 2 + 3 + 5 + 8 + 13 + 21 + 34
+
