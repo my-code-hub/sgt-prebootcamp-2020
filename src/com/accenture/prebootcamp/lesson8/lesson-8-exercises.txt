@@ -40,3 +40,20 @@ to the power of another. (Do not use available Java built-in method)
     repeats until the user correctly guesses the random number.
 
     Hint: to find out how to generate a random number, please google "Java generate random number"
+
+
+Homework - loops:
+   Write a java program which asks user to input two numbers. Print the sum of all numbers from the lowest to
+   the highest number which user entered.
+   Example 1:
+      Please enter first number: 5
+      Please enter second number: 10
+   Output:
+      Sum all of numbers from 5 to 10 is 45
+
+   Example 2:
+      Please enter first number: 10
+      Please enter second number: 5
+   Output:
+      Sum all of numbers from 5 to 10 is 45
+
