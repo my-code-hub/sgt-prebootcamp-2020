@@ -1,0 +1,10 @@
+1) Write a program which creates two dimensional array and stores multiplication table (from 1 - 10) in it.
+
+
+Bonus exercise!
+    Sort the given numbers using arrays and implementing Bubble Sort algorithm
+      (please read https://www.geeksforgeeks.org/bubble-sort/)
+       21, 65, 45, 9, 23, 16
+
+    Link in exercise description also contains solution, but before looking at solution, please
+    try to solve the exercise yourself first.

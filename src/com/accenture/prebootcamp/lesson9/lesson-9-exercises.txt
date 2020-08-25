@@ -3,8 +3,8 @@
     2) prints out all of the numbers from array in reverse order
 
 
-2. Define an array with six arbitrary whole numbers. Write a program that finds second highest number in array and
-   the lowest number in array. Output those numbers.
+2. Define an array with seven whole numbers (30, 15, 15, 3, 15, 12, 13). Write a program that finds second highest
+ number in array and the lowest number in array. Output those numbers.
 
 
 3. Write a program which asks user to input the size of array. Declare and initialize array of
@@ -21,8 +21,8 @@
  it.
 
 
-6. Ask user to input positive arbitrary whole number and print Fibonacci sequence till that number. Also create new
-   array and save all of the fibonacci numbers in this array. For example, if user inputs number 10 the output should
-   be:
-       0 + 1 + 1 + 2 + 3 + 5 + 8 + 13 + 21 + 34
+6. Ask user to input positive arbitrary whole number x and print then print x Fibonacci sequence numbers. Also
+create new array and save all of the fibonacci numbers in this array. Then output the array. For example, if user inputs
+ number 10 the output should be:
+       0 1 1 2 3 5 8 13 21 34
 
