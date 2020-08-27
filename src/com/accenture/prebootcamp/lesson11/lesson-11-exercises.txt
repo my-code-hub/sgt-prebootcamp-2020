@@ -7,7 +7,9 @@
         10 * 9 = 90
         10 * 10 = 100
 
-    Hint: don't forget that you have to save the values in array and output them from array.
+    Hint:
+       1) don't forget that you have to save the values in array and output them from array.
+       2) Arrays should be the size of [10][10]
 
 
 Bonus exercise!
