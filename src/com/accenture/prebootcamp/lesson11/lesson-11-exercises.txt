@@ -1,4 +1,13 @@
 1) Write a program which creates two dimensional array and stores multiplication table (from 1 - 10) in it.
+    Example of output:
+        1 * 1 = 1
+        1 * 2 = 2
+        1 * 3 = 3
+        ....
+        10 * 9 = 90
+        10 * 10 = 100
+
+    Hint: don't forget that you have to save the values in array and output them from array.
 
 
 Bonus exercise!
