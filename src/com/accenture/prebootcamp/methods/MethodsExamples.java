@@ -1,4 +1,4 @@
-package com.accenture.prebootcamp.lesson12;
+package com.accenture.prebootcamp.methods;
 
 public class MethodsExamples {
 
