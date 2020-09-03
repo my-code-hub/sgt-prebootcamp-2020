@@ -1,0 +1,5 @@
+1. create class "Animal" with properties "type", "name" and "age"
+    * create constructor with parameters "name" and "age" for setting the properties
+    * create two objects each with different names and ages (two objects of type "cat" and one "dog")
+    * create a method "makeSound" which prints "wuff!" if the animal type is "dog" or "meow!" if
+      the animal type is "cat"
