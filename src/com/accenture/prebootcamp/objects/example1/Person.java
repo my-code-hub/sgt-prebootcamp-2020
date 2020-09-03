@@ -7,7 +7,34 @@ public class Person {
     int age;
 
     //default constructor
+    //(it does exist already, but here we override it)
     Person() {
-        System.out.println("Creating new instance of class Person");
+        System.out.println("Creating new instance of " +
+                "class Person (default constructor)");
+    }
+
+    Person(String personName, int personAge) {
+        System.out.println("Creating new instance of class Person " +
+                " with constructor Person(String personName, int personAge). " +
+                "Argument values: personName = " + personName + ", age = " + personAge);
+        name = personName;
+        age = personAge;
+    }
+
+    Person(String name) {
+        System.out.println("name: " + name);
+        System.out.println("this.name: " + this.name);
+
+        this.name = name;
+    }
+
+    //instance method
+    void sayHello() {
+        System.out.println("Hello, my name is " + name +
+                ". And I'm " + age + " years old");
+    }
+
+    String getName() {
+        return name;
     }
 }
