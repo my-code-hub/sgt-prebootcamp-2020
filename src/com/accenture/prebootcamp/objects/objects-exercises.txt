@@ -1,12 +1,11 @@
 1. create class "Animal" with properties "type", "name" and "age"
-    * create constructor with parameters "name" and "age" for setting the properties
+    * create constructor with three parameters "type", "name" and "age" for setting the properties
     * create two objects each with different names and ages (two objects of type "cat" and one "dog")
     * create a method "makeSound" which prints "wuff!" if the animal type is "dog" or "meow!" if
       the animal type is "cat"
 
     Hint: Create class ObjectsExercise1 with main method. Here you can create instances of class Animal,
           call methods, etc.
-
 
 
 2. create a class "BankAccount" with property "balance" (should be decimal number)
@@ -16,3 +15,15 @@
     * create a method "withdraw" with one parameter "amount" (decimal number) which allows user to decrease his balance.
     * create a method "printBalance" which displays the current balance to user
     * method for transfer balance from one bank account to another
+
+
+3. create class "Rectangle" with properties "width" and "height" (whole numbers).
+    * create default constructor which sets "height" to 5 and "width" to 10
+    * create a constructor with parameters "width" and "height" which sets the corresponding property values
+    * create methods "getHeight" and "getWidth" which return the corresponding properties
+    * create a method "getPerimeter" (sum all sides) which calculates and returns the perimeter of the rectangle
+    * create a method "getArea" (multiply with with height) which calculates and returns the area of rectangle
+    * create a method "incrementHeight" with no parameters, which increments height by one
+    * create a method "incrementWidth" with no parameters, which increments width by one
+    * add validation in constructors which doesn't allow to create Rectangle with negative or zero
+        width or height. If height or width is not positive, set it to 5 and 10
