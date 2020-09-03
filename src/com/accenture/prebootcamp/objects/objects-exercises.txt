@@ -6,3 +6,13 @@
 
     Hint: Create class ObjectsExercise1 with main method. Here you can create instances of class Animal,
           call methods, etc.
+
+
+
+2. create a class "BankAccount" with property "balance" (should be decimal number)
+    * create empty default constructor for it
+    * create a constructor with parameter for setting balance.
+    * create a method "deposit" with one parameter "amount" (decimal number) which allows user to increase his balance.
+    * create a method "withdraw" with one parameter "amount" (decimal number) which allows user to decrease his balance.
+    * create a method "printBalance" which displays the current balance to user
+    * method for transfer balance from one bank account to another
