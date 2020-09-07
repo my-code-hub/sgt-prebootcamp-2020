@@ -34,6 +34,11 @@
         * add limit for depositing money. If the deposit is greater than 5000, then it should not
           do the deposit and output message:
               "Transaction cancelled. Max deposit - 5000 | Your deposit: 6000"
+        * call these methods and demonstrate how they work, for example:
+            * write a code which tries to withdraw more money than there is in bank account
+            * write a code which tries to deposit more than max limit
+            * write a code which tries to transfer more money from one account to another account
+              than possible
 
 
 3. create class "Rectangle" with properties "width" and "height" (whole numbers).
