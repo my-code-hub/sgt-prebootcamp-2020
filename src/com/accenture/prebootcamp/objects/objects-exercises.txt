@@ -12,9 +12,9 @@
     * create empty default constructor for it
     * create a constructor with parameter for setting balance.
     * create a method "deposit" with one parameter "amount" (decimal number)
-        which allows user to increase his balance.
+        which allows user to increase the balance.
     * create a method "withdraw" with one parameter "amount"
-        (decimal number) which allows user to decrease his balance.
+        (decimal number) which allows user to decrease the balance.
     * create a method "printBalance" which displays the current balance to user
     * method for transfer balance from one bank account to another
 
@@ -78,7 +78,7 @@
                This method subtracts points from players health property and outputs message:
                    "[name] lost [numberOfPoints] points and now has [health]] left."
                But, if points is greater than player's health it sets players health to zero and prints this
-               message instead: "[name] just lost all his last points and died!".
+               message instead: "[name] just lost all points and died!".
                If this player is already dead already (has 0 or less health), then we don't need to subtract
                any points or output any message.
            i. add "attack" method with one parameter of type "Player" (this is the victim). This method
@@ -86,7 +86,7 @@
               (victim/the object which is the parameter).
               First, before we attack victim, we need to check if we are alive (if our player is alive).
               If our player is dead, then we just output message:
-                       "[name] is unable to attack, because he is dead."
+                       "[name] is unable to attack, because he/she is dead."
               and return from method without attacking victim. But if we are alive, we have to
               take the power of our weapon and subtract it from the victims health (so we basically
               call "subtractHealth" method on our victim) and before that print message:
