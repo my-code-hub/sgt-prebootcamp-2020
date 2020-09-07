@@ -25,6 +25,12 @@ public class ObjectsExercises2 {
 //        account1.withdraw(1000);
 //        account1.printBalance();
 //
+        //doesn't compile, because "balance" property is
+        //encapsulated (set to private)
 //        account1.balance = 100000;
+
+        double balance1 = account1.getBalance();
+        System.out.println("balance1 = " + balance1);
+
     }
 }

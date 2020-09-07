@@ -4,15 +4,19 @@ package com.accenture.prebootcamp.objects.exercises.exercise2;
 public class BankAccount {
 
     //..with property "balance" (should be decimal number)
-    double balance;
+    private double balance;
 
     //* create empty default constructor for it
-    public BankAccount() {
+    BankAccount() {
     }
 
     //* create a constructor with parameter for setting balance.
-    public BankAccount(double balance) {
+    BankAccount(double balance) {
         this.balance = balance;
+    }
+
+    double getBalance() {
+        return balance;
     }
 
     double deposit(double amount) {
@@ -21,7 +25,9 @@ public class BankAccount {
     }
 
     double withdraw(double amount) {
-        balance -= amount;
+        if (balance >= amount) {
+            balance -= amount;
+        }
         return balance;
     }
 
