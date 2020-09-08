@@ -32,5 +32,14 @@ public class ObjectsExercises2 {
         double balance1 = account1.getBalance();
         System.out.println("balance1 = " + balance1);
 
+        System.out.println(" *********** ");
+        //try to transfer more than possible
+        account1.transferFrom(account2, 5000d);
+        account1.printBalance();
+        account2.printBalance();
+
+        //try to deposit more than possible
+        account1.deposit(5001d);
+        account1.printBalance();
     }
 }
