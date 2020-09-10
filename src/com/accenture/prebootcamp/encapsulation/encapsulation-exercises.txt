@@ -1,0 +1,2 @@
+E.1. See sources files in package com.accenture.prebootcamp.encapsulation.excersises.exercise1.
+  Start this exercise by following steps in class "A", then class "B" and then "BaseApp" and "InnerApp"
