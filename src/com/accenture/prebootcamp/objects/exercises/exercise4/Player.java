@@ -9,14 +9,13 @@ class Player {
     // b. add property "weapon" (of type Weapon)
     // c. add property "health" (whole number)
     private String name;
-    private int health;
+    private int health = INITIAL_HEALTH;
     private Weapon weapon;
 
     //e. add constructor which has two parameters for setting name and Weapon. Also in this
     //              constructor you should set health to 1000
     Player(String name, Weapon weapon) {
         this.name = name;
-        this.health = INITIAL_HEALTH;
         this.weapon = weapon;
     }
 
@@ -60,7 +59,7 @@ class Player {
             return;
         }
         health -= points;
-        if (health < 0) {
+        if (health <= 0) {
             health = 0;
             System.out.println(name + " just lost all points and died!");
         } else {
