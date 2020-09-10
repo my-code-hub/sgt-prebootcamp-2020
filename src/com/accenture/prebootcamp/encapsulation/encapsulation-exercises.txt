@@ -1,2 +1,18 @@
 E.1. See sources files in package com.accenture.prebootcamp.encapsulation.excersises.exercise1.
   Start this exercise by following steps in class "A", then class "B" and then "BaseApp" and "InnerApp"
+
+
+E.2. Create class "MyList". Add property "list" which is of type array with text elements.
+   1. Create default constructor which initializes "list" to a new empty array of size 3.
+   2. Create another constructor which has one parameter "size" (whole number) and
+      use this variable to create new empty array of that size and assign it to "list"
+   3. Make sure property "list" is not accessible directly from other class (it has to be encapsulated).
+   4. Create method "add" for adding element to the list. (this method should be accessible publicly)
+   5. Create method "printList" which outputs the list. (only accessible on package level)
+   6. Create class "ListProgram" which:
+        1. Creates a new instance of "MyList" with default constructor
+        2. Add two elements to your list (any values)
+        3. Output all of the values in your list
+        4. Create another list. This time specify size 5.
+        5. Add 4 elements to this list
+        6. Output all of the values in your list
