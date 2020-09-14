@@ -39,7 +39,10 @@ public class MyList {
     // just loop trough array and print out all of the values
     public void printList() {
         for (int i = 0; i < list.length; i++) {
-            System.out.println((i + 1) + ". " + list[i]);
+            String element = list[i];
+            if (element != null) {
+                System.out.println((i + 1) + ". " + list[i]);
+            }
         }
     }
 }
