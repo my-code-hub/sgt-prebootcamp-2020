@@ -13,13 +13,23 @@ public class ListManager {
             String input = scanner.nextLine();
 
             //we get first word from user input.
-            String command = input.split("\\s")[0].toLowerCase().trim();
+            String[] inputWords = input.split("\\s");
+            String command = inputWords[0].toLowerCase().trim();
             switch (command) {
                 case "exit":
                     System.out.println("bye...");
+                    //stop the program by returning from main method
                     return;
                 case "add":
                     list.add(input.substring(3).trim());
+                    list.printList();
+                    break;
+                case "remove":
+                    //get the index and convert it to int datatype
+                    int index = Integer.parseInt(inputWords[1]);
+                    //remove item from list and print the list
+                    list.remove(index);
+                    list.printList();
                     break;
                 default:
                     System.out.println("Unsupported command!");
