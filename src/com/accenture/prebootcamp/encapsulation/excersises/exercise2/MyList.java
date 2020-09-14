@@ -17,21 +17,29 @@ public class MyList {
     // use this variable to create new empty
     // array of that size and assign it to "list"
     MyList(int size) {
-        //TODO
+        list = new String[size];
     }
 
     //4. Create method "add" for adding element to the list.
     // (this method should be accessible publicly)
+    //here we have to loop trough array
+    // and add new element at the first empty spot.
+    //(loop trough array and at "element" to the first empty slot)
     public void add(String element) {
-        //here we have to loop trough array
-        // and add new element at the first empty spot.
-        //(loop trough array and at "element" to the first empty slot)
+        for (int i = 0; i < list.length; i++) {
+            if (list[i] == null) {
+                list[i] = element;
+                return;
+            }
+        }
     }
 
+    //5. Create method "printList" which outputs the list.
+    // (only accessible on package level)
+    // just loop trough array and print out all of the values
     public void printList() {
-        //5. Create method "printList" which outputs the list.
-        // (only accessible on package level)
-        // just loop trough array and print out all of the values
+        for (int i = 0; i < list.length; i++) {
+            System.out.println((i + 1) + ". " + list[i]);
+        }
     }
-
 }
