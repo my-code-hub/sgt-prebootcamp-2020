@@ -29,8 +29,7 @@
           money from the other account than it's balance.
                 For example, if bank account A has 50 units and bank account B has 25 units
                 and we try to transfer 30 units from B to A, then it should output:
-                    "Transfer cancelled. You are trying to transfer
-                        30 units, but only 25 are available."
+                    "Transfer cancelled. You are trying to transfer 30 units, but only 25 are available."
         * add limit for depositing money. If the deposit is greater than 5000, then it should not
           do the deposit and output message:
               "Transaction cancelled. Max deposit - 5000 | Your deposit: 6000"
@@ -60,7 +59,7 @@
                "name"  (text)
            b. Add getter methods for all of the properties in "Weapon" class
            c. Add default constructor which initializes properties with default values
-               (default power should be 3 and name - "Axe")
+               (default power should be 5 and name - "Axe")
            d. Add constructor with parameters "power" and "name" for setting properties of the weapon
               (this constructor should validate power value and shouldn't allow to set it less than 1
                or higher than 10. It should also validate name. If name has less than 4 characters or
