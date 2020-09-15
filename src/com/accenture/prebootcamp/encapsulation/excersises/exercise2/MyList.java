@@ -34,6 +34,20 @@ public class MyList {
         }
     }
 
+    public void edit(int index, String element) {
+        index -= 1;
+        if (isValid(index)) {
+            list[index] = element;
+        }
+    }
+
+    public void remove(int index) {
+        index -= 1;
+        if (isValid(index)) {
+            list[index] = null;
+        }
+    }
+
     //5. Create method "printList" which outputs the list.
     // (only accessible on package level)
     // just loop trough array and print out all of the values
@@ -44,5 +58,9 @@ public class MyList {
                 System.out.println((i + 1) + ". " + list[i]);
             }
         }
+    }
+
+    private boolean isValid(int index) {
+        return index >= 0 && index < list.length;
     }
 }
