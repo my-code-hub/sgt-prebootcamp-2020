@@ -59,3 +59,15 @@ E.3. Add more functionality to your previous program. For example, make it possi
                 1 Buy milk and eggs!
                 2 Go to the gym
 
+
+
+E.4. Search and read about ArrayList (see links below). Get familiar with how to add/edit and remove elements from
+    this collection. Our previously written list manager program used array to store elements. Change (refactor) this
+    program, so it would use ArrayList instead of array internally.
+
+    Some useful links:
+        Mandatory read:
+            https://www.w3schools.com/java/java_arraylist.asp
+        Semi-mandatory read:
+            https://www.javatpoint.com/java-arraylist
+            https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
