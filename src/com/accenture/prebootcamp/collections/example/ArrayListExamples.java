@@ -1,6 +1,9 @@
 package com.accenture.prebootcamp.collections.example;
 
+import com.accenture.prebootcamp.equals.examples.Vehicle;
+
 import java.util.ArrayList;
+import java.util.List;
 
 public class ArrayListExamples {
 
@@ -35,5 +38,15 @@ public class ArrayListExamples {
 
         myFirstArray.set(0, "Red apple");
         System.out.println("myFirstArray.get(0) " + myFirstArray.get(0));
+
+        System.out.println("*************");
+        List<Vehicle> vechicles = new ArrayList<>();
+        vechicles.add(new Vehicle("1", "test", 12));
+        vechicles.add(new Vehicle("2", "test", 12));
+
+        int index = vechicles.indexOf(new Vehicle("2", "test", 12));
+        int index2 = vechicles.indexOf(new Vehicle("3", "test", 12));
+        System.out.println(index);
+        System.out.println(index2);
     }
 }

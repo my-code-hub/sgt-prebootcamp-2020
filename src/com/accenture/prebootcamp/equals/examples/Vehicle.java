@@ -12,7 +12,7 @@ public class Vehicle {
     private String brand;
     private int maxSpeed;
 
-    Vehicle(String vin, String brand, int maxSpeed) {
+    public Vehicle(String vin, String brand, int maxSpeed) {
         this.vin = vin;
         this.brand = brand;
         this.maxSpeed = maxSpeed;
