@@ -1,0 +1,35 @@
+***** Agenda ****
+
+1) Let's split into pairs - you can choose the partner yourself if you want to. If not, let me know
+   and I will assign you a random one. :)
+
+2) Once you found your partner, create a private slack channel, invite your partner and trainer. Main
+   purpose of this channel will be for you to communicate with trainer if needed.
+
+3) Decide how you will communicate with each other (MS teams / zoom / skype. slack and/or something else)
+   and setup your tools. (you can do this later if you want to)
+
+4) Get familiar with practical work topics. (you can find them in practical-work-topics.txt file)
+    Hint: google and get familiar with each game and how it works. Decide which one you like the most.
+          if you have any questions or un-clarities, ask trainer.
+
+5) Decide and agree which topic you want to work on. Communicate this decision to trainer via slack channel.
+
+6) Setup your github repository and java project. Here are some hints:
+    1) Create github account (both of you)
+    2) One of you has to create empty git repository (public or private, it's up to you) and invite the other person
+        (so both of you can make changes in this repository)
+    3) Both of you have to checkout the repository
+    4) One of you has to create new java project (hello world program) and commit / push it in this repository
+    5) That's it! Now you can both work on your project. Make commits, push changes and share your code :)
+
+7) Start with writing a detailed description of how your program will work and what features will it have:
+        1) Write a description of what your program does and how does it work.
+        2) Write multiple examples of user inputs and outputs, similar as you saw in exercise E.3.
+   Add this description to your repository and send the link to repository to your teacher.
+
+8) Next step is to figure out what to program. Discuss main algorithm /logic, data structures you will use and how
+will your program work. You can also write pseudocode if you want to. (https://www.geeksforgeeks.org/how-to-write-a-pseudo-code/).
+
+9) Once it is clear for you what to program, now the technical implementation starts. Now you have to use
+  the Java knowledge you have learned and write the code. Good luck! :)
