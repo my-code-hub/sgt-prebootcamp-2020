@@ -3,8 +3,12 @@
 1) Let's split into pairs - you can choose the partner yourself if you want to. If not, let me know
    and I will assign you a random one. :)
 
-2) Once you found your partner, create a private slack channel, invite your partner and trainer. Main
-   purpose of this channel will be for you to communicate with trainer if needed.
+2) Once you found your partner, create a private slack channel, invite your partner and trainer.
+   Name your slack channels as follows: name1-nam2-project
+
+   For example: ieva-liene-project
+
+   Main purpose of this channel will be for you to communicate with trainer if needed.
 
 3) Decide how you will communicate with each other (MS teams / zoom / skype. slack and/or something else)
    and setup your tools. (you can do this later if you want to)
@@ -33,3 +37,4 @@ will your program work. You can also write pseudocode if you want to. (https://w
 
 9) Once it is clear for you what to program, now the technical implementation starts. Now you have to use
   the Java knowledge you have learned and write the code. Good luck! :)
+
