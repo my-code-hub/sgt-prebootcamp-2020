@@ -1,0 +1,6 @@
++ mazliet atkārtosim inheritance
++ access modifiers
++ overriding methods
++ super keyword
+* constructors
+* overloading methods
