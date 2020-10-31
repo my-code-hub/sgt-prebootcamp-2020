@@ -17,5 +17,12 @@ public class InheritanceExamples {
 
         System.out.println("************");
         manager.outputGetDetails();
+
+        Employee employee2 = new Employee(70);
+
+        Employee employee3 = new Employee("Janis");
+
+
+        Employee employee4 = manager;
     }
 }

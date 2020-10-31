@@ -3,6 +3,16 @@ package com.accenture.prebootcamp.inheritance;
 public class Manager extends Employee {
     String department;
 
+    public Manager() {
+        System.out.println("Manager()");
+    }
+
+    public Manager(String department) {
+        super("Peteris");
+        System.out.println("Manager(String department)");
+        this.department = department;
+    }
+
     void manage() {
         getDetails();
         System.out.println(name);
