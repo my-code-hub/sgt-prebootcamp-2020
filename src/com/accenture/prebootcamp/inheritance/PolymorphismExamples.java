@@ -31,14 +31,11 @@ public class PolymorphismExamples {
         Manager manager2 = new Manager();
         manager2.name = "manager2";
 
-
         printDetails(employee3);
 
         printDetails(manager);
 
         printDetails(manager2);
-
-
 
         //This won't work, because manager might have
         //functionality (methods, properties) which Emplyoee doesn't have
@@ -51,6 +48,7 @@ public class PolymorphismExamples {
         if (employee instanceof Manager) {
             System.out.println(employee.name + " is manager");
 
+            //cast
             Manager manager = (Manager) employee;
             manager.manage();
         }
