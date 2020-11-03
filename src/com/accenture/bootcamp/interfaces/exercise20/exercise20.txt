@@ -6,9 +6,26 @@
         }
     }
 3) Fix the interface in question 2.
+    SOLUTION:
+        public interface SomethingIsWrong {
+            void aMethod(int aValue);
+        }
 4) Is the following interface valid?
     public interface Marker {
     }
 5) Write a class that implements the java.lang.CharSequence interface found in the java.lang package.
 Your implementation should return the string backwards. Select one of the sentences from this book
 to use as the data. Write a small main method to test your class; make sure to call all four methods.
+    Example of usage:
+        CharSequence sequence1 = new ArrayCharSequence("abcdef");
+
+        System.out.println(sequence1.length());
+        System.out.println(sequence1.subSequence(1, 3));
+        System.out.println(sequence1.toString());
+        System.out.println(sequence1.charAt(1));
+
+    Example output:
+        6
+        ed
+        fedcba
+        e
