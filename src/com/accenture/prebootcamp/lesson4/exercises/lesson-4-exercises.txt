@@ -159,11 +159,12 @@
      JJ  a     a   V  a     a
 
 
-14) Write a Java program to print the area and perimeter of a rectangle. Declare variables width and height,
-    assign them values 5.5 and 8.5. Then calculate are and perimeter and assign those values to new variables.
+14) Write a Java program to print the area and perimeter of a rectangle.
+    Declare variables width and height,
+    assign them values 5.6 and 8.5. Then calculate are and perimeter and assign those values to new variables.
     Print out the variables which contain area and perimeter.
     Test Data:
-        Width = 5.5 Height = 8.5
+        Width = 5.6 Height = 8.5
 
     Expected Output:
         Area is 5.6 * 8.5 = 47.60

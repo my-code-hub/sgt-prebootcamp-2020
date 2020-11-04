@@ -1,4 +1,4 @@
-package com.accenture.prebootcamp.interfaces;
+package com.accenture.bootcamp.interfaces.examples;
 
 public class Circle implements Shape, ColoredShape {
 

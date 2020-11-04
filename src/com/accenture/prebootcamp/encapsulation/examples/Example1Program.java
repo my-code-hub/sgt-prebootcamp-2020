@@ -1,6 +1,6 @@
 package com.accenture.prebootcamp.encapsulation.examples;
 
-import lv.rcs.prebootcamp.lesson15.examples.encapsulation.p1.Example2;
+import com.accenture.prebootcamp.encapsulation.examples.p1.Example2;
 
 public class Example1Program {
 
@@ -11,11 +11,11 @@ public class Example1Program {
         // (it has package access)
         // System.out.println(object.prop1);
 
-        System.out.println(object.prop2);
+        System.out.println("object.prop2: " + object.prop2);
 
         //prop3 is private
-///        System.out.println(object.prop3);
-        System.out.println(object.getProp3());
+//        System.out.println(object.prop3);
+//        System.out.println(object.getProp3());
 
         // cann be used only from the same package
         //object.method1();
@@ -23,6 +23,6 @@ public class Example1Program {
         object.method2();
 
         //is private
-//        object.method3();
+        //object.method3();
     }
 }

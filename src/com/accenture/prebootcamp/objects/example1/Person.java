@@ -13,11 +13,11 @@ public class Person {
                 "class Person (default constructor)");
     }
 
-    Person(String personName, int personAge) {
+    Person(String name, int personAge) {
         System.out.println("Creating new instance of class Person " +
                 " with constructor Person(String personName, int personAge). " +
-                "Argument values: personName = " + personName + ", age = " + personAge);
-        name = personName;
+                "Argument values: personName = " + name + ", age = " + personAge);
+        this.name = name;
         age = personAge;
     }
 

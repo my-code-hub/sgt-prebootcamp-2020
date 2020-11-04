@@ -12,3 +12,5 @@ target/
 .gradle/
 build/
 out/
+
+notes/

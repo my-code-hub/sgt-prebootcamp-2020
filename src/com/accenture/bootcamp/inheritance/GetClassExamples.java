@@ -1,4 +1,4 @@
-package com.accenture.prebootcamp.inheritance;
+package com.accenture.bootcamp.inheritance;
 
 public class GetClassExamples {
 

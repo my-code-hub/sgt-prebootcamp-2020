@@ -1,12 +1,14 @@
 package com.accenture.prebootcamp.encapsulation.examples.p1;
 
 public class Example2 {
-    //default / package access modifier
+    // default / package access modifier
+    // only accessible from classes in the same package
     String prop1 = "default";
+
     // public access modifier
     public String prop2 = "public";
 
-    //encapsulated
+    //encapsulated as private (private access modifier)
     private String prop3 = "private";
 
     //can be called inside of the same package and class

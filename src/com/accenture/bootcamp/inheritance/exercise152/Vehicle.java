@@ -1,4 +1,4 @@
-package com.accenture.prebootcamp.inheritance.exercise152;
+package com.accenture.bootcamp.inheritance.exercise152;
 
 //    Create a class "Vehicle":
 //        Add a private property "brand" (text) and a public getter method for it

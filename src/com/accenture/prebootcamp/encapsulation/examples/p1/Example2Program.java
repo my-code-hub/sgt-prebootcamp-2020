@@ -9,8 +9,12 @@ public class Example2Program {
         //accessible because we are in the same package
         System.out.println("prop2: " + object.prop2);
 
-        //not accessible because it is private
-        //and available only inside clas
-        //System.out.println("prop3: " + object.prop3);
+//        not accessible because it is private
+//        and available only inside clas
+//        System.out.println("prop3: " + object.prop3);
+
+        // it works, because class Example2 is in the same package
+        // as class Example2Program
+        object.method1();
     }
 }

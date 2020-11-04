@@ -6,7 +6,8 @@ package com.accenture.prebootcamp.lesson10.exercises;
 public class Exercise1 {
 
     public static void main(String[] args) {
-        int[] numbers = {2, 3, 5, 2, 5, 7};
+        // the same as int[] numbers = {2, 3, 5, 2, 5, 7};
+        int[] numbers = new int[]{2, 3, -50, 2, 5, 7};
 
         for (int i = 0; i < numbers.length; i++) {
             System.out.print(numbers[i] + " ");

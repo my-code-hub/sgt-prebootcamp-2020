@@ -4,11 +4,6 @@ package com.accenture.prebootcamp.lesson10.exercises;
 //   Write a program that finds second highest number in array and
 //   the lowest number in array. Output those numbers.
 
-
-// observations:
-//less loops is always better
-//bug with current > secondHighest
-
 public class Exercise2 {
 
     public static void main(String[] args) {

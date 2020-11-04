@@ -88,9 +88,10 @@
         e - 2
         l - 2
         o - 3
-        ! - 1
         w - 1
         a - 1
         r - 1
         y - 1
         u - 1
+
+    Note: Program has to support only english letters. You can ignore spaces, exclamation marks, etc.

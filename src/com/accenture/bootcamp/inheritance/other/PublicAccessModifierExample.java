@@ -1,6 +1,6 @@
-package com.accenture.prebootcamp.inheritance.other;
+package com.accenture.bootcamp.inheritance.other;
 
-import com.accenture.prebootcamp.inheritance.Employee;
+import com.accenture.bootcamp.inheritance.Employee;
 
 public class PublicAccessModifierExample {
 

@@ -1,4 +1,4 @@
-package com.accenture.prebootcamp.inheritance.exercise152;
+package com.accenture.bootcamp.inheritance.exercise152;
 
 public class Example {
 

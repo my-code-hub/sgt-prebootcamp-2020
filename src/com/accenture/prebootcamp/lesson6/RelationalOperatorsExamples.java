@@ -1,4 +1,4 @@
-package com.accenture.prebootcamp.lesson6.exercises;
+package com.accenture.prebootcamp.lesson6;
 
 public class RelationalOperatorsExamples {
 

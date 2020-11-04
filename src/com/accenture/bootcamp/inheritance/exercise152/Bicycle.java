@@ -1,4 +1,4 @@
-package com.accenture.prebootcamp.inheritance.exercise152;
+package com.accenture.bootcamp.inheritance.exercise152;
 
 //Create a class "Bicycle" which is a subclass of "Vehicle":
 //    Add a private property "seatHeight" and public getter and setter for it.
