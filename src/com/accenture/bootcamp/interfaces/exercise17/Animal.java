@@ -5,5 +5,9 @@ package com.accenture.bootcamp.interfaces.exercise17;
 //    Define method "void makeSound()"
 public interface Animal {
 
+    String DEFAULT_SOUND = "wuff!";
+
     void makeSound();
+
+    void move();
 }
