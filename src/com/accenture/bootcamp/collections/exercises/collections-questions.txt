@@ -1,0 +1,3 @@
+1. What are the main differences between List, Map and Set collections?
+
+2. Please name two implementations for List, Map and Set interfaces.
