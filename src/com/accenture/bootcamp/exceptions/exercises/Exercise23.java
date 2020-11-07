@@ -14,7 +14,9 @@ public class Exercise23 {
     public static void main(String[] args) {
         for (int i = 0; i < 10; i++) {
             String name = generateName();
-            System.out.println(name.concat(" is my name!"));
+            if (name != null) {
+                System.out.println(name.concat(" is my name!"));
+            }
         }
     }
 
