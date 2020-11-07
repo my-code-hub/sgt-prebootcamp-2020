@@ -6,16 +6,24 @@ Send the answers to these questions to teacher in slack:
     } finally {
 
     }
+    Answers:
+        1) Will this code compile? - yes
+        2) When will the code in finally block run? - always
+        3) in which cases it won't - code in finally will always run.
+
 
 2) What types of exception will this handler catch? (checked / unchecked?)
     a) Will this catch RuntimeException?
     b) What about IOException, NullPointerException, IndexOutOfBoundsException?
+
     catch (Exception e) {
 
     }
 
-3) What is wrong with using this type of exception handler? Is there anything wrong with the following exception handler
- as written? Will this code compile?
+
+3) What is wrong with using this type of exception handler?
+    Is there anything wrong with the following exception handler
+    as written? Will this code compile?
     try {
 
     } catch (Exception e) {

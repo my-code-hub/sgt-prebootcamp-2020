@@ -17,11 +17,17 @@ public class Exercise21 {
 
         divideNumbers(10, 5);
 
+        divideNumbers(0, 5);
+
         System.out.println("Exiting program gracefully. :)");
     }
 
     static void divideNumbers(int number1, int number2) {
         String text = String.format("%d divided by %d is ", number1, number2);
-        System.out.println(text + (number1 / number2));
+        try {
+            System.out.println(text + (number1 / number2));
+        } catch (ArithmeticException e) {
+            System.out.println("Can't divide by zero!");
+        }
     }
 }
