@@ -20,13 +20,37 @@ public class Exercise25 {
     //        then you have to output text:
     //             [number] is odd!
     static void checkNumber(int number) {
+        try {
+            evenOrOdd(number);
+        } catch (EvenNumberException e) {
+            System.out.println(number + " is even!");
+        } catch (OddNumberException e) {
+            System.out.println(number + " is odd!");
+        }
+    }
 
+    static void checkNumber2(int number) {
+        try {
+            evenOrOdd(number);
+        } catch (Exception e) {
+            if (e instanceof EvenNumberException) {
+                System.out.println(number + " is even!");
+            } else if (e instanceof OddNumberException) {
+                System.out.println(number + " is odd!");
+            } else {
+                throw new RuntimeException(e);
+            }
+        }
     }
 
     //TODO 2. this method has to throw
     // a) EvenNumberException exception if number is even value
     // b) OddNumberException if number is odd value
-    static void evenOrOdd(int number) {
-
+    static void evenOrOdd(int number) throws EvenNumberException {
+        if (number % 2 == 0) {
+            throw new EvenNumberException();
+        } else {
+            throw new OddNumberException();
+        }
     }
 }

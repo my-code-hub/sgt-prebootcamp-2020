@@ -8,8 +8,8 @@ public class Exercise24 {
     // Did the code compile when you simply tried to call the method? If not, why so?
     // There are two ways you can adjust this program so helloWorld() method call would work.
     // Demonstrate them both.
-    public static void main(String[] args) {
-        //helloWorld()
+    public static void main(String[] args) throws IOException {
+        helloWorld();
     }
 
     //do not modify this method / code
