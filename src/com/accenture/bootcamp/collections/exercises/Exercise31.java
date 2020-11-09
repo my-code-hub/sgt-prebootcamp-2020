@@ -1,7 +1,7 @@
 package com.accenture.bootcamp.collections.exercises;
 
 //TODO 1. Create a class Person with properties name, surname and age.
-//          // Also implement / override toString method so it would
+//          // Also implement / override toString method so it would output property names and values
 //     2. Implement Comparable interface for class Person so it would be sorted by name,
 //     surname and age in ascending order. (when implementing compareTo method you can assume that none of
 //     the properties will ever be null)
