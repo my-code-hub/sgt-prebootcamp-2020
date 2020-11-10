@@ -16,38 +16,8 @@ public class Exercise32 {
 
 
     public static void main(String[] args) {
-        solutionExample1();
 
-        solutionExample2();
-
-        solutionExample3();
     }
 
-    static void solutionExample1() {
-        String[] words = Text.TEXT.split("\\s+");
 
-        Set<String> uniqueWords = new HashSet<>();
-        for (String word : words) {
-            uniqueWords.add(word);        }
-
-        System.out.println("unique words: " + uniqueWords.size());
-    }
-
-    static void solutionExample2() {
-        String[] words = Text.TEXT.split("\\s+");
-
-        List<String> wordsArray = Arrays.asList(words);
-        Set<String> uniqueWords = new HashSet<>(wordsArray);
-
-        System.out.println("unique words: " + uniqueWords.size());
-    }
-
-    static void solutionExample3() {
-        String[] words = Text.TEXT.split("\\s+");
-
-        Set<String> uniqueWords = new HashSet<>();
-        uniqueWords.addAll(Arrays.asList(words));
-
-        System.out.println("unique words: " + uniqueWords.size());
-    }
 }
