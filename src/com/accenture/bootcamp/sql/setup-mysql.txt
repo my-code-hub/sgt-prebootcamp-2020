@@ -1,0 +1,8 @@
+1. Install docker:
+    https://www.docker.com/products/docker-desktop
+    Windows:    https://docs.docker.com/docker-for-windows/install/
+    MacOS:      https://docs.docker.com/docker-for-mac/install/
+
+2. Run this command in terminal:
+    docker run --name bootcamp-mysql -p 3306:3306 -d -e MYSQL_ALLOW_EMPTY_PASSWORD=true mysql:8.0.13 --default-authentication-plugin=mysql_native_password
+
