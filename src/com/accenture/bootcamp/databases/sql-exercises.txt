@@ -99,7 +99,7 @@
        a. employees (first_name, last_name)
        b. departments (department)
        c. projects (description)
-       d. Each employee can be assigned to none or a single departments
+       d. Each employee can be assigned to none or a single department
        e. Each employee can be assigned to none or multiple projects
     2. Insert some data:
        a. employees:
@@ -122,8 +122,8 @@
     10. Write SQL queries for displaying the following data:
        a. departments that have no employees assigned to them
        b. only departments which have employees assigned to them
-       c. first_name, last_name, department for all employees
-       d. all employees (first_name, last_name) that are in project with X name (for example, "Insurance").
+       c. first_name, last_name, department name for all employees
+       d. all employees (first_name, last_name) that are in project with X description (for example, "Insurance").
        e. first_name, last_name for all employees who are not assigned to department
        f. first_name, last_name, department only for employees which are assigned to a department
        g. All employees (first_name, last_name) in X department (for example, "IT") who name starts with "Ja"
