@@ -99,8 +99,8 @@
        a. employees (first_name, last_name)
        b. departments (department)
        c. projects (description)
-       d. Each employee can be assigned to none or a single project
-       e. Each employee can be assigned to none or multiple departments
+       d. Each employee can be assigned to none or a single departments
+       e. Each employee can be assigned to none or multiple projects
     2. Insert some data:
        a. employees:
           Janis Logins
