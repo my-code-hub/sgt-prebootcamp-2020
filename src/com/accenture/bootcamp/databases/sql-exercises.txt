@@ -95,7 +95,7 @@
 
 
 *** Exercise 44 - model/create database ***
-    1. Design and write SQL scripts creating the database "company". We will have to save info about:
+    1. Design and write SQL scripts for creating a database with name "company". We will have to store info about:
        a. employees (first_name, last_name)
        b. departments (department)
        c. projects (description)
@@ -128,8 +128,7 @@
        f. first_name, last_name, department only for employees which are assigned to a department
        g. All employees (first_name, last_name) in X department (for example, "IT") who name starts with "Ja"
        h. first_name, last_name, project for all employees / projects
-       i. first_name, last_name, project for all employees / projects
-       b. "description" only for projects which have employees assigned to them
+       i. "description" only for projects which have employees assigned to them
 
 
 *** Exercise 45 - JOINS ***
