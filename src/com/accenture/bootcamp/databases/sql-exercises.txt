@@ -112,7 +112,7 @@
        c. projects:
           Online Gaming, Insurance, Banking system, Communications
     8. Assign employees to departments:
-        Janis to IT and Marketing
+        Janis to IT
         Juris to IT
         Ieva to HR
     9. Assign employees to projects:
