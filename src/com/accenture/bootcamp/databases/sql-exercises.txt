@@ -1,0 +1,148 @@
+**** Setup and connect to DB ****
+    1) Install MySql on your computer:
+        MySql installer link: https://dev.mysql.com/downloads/installer/
+        (instructions might differ per operation system, google to find out more).
+    2) Install database client: https://dev.mysql.com/downloads/workbench/
+
+
+*** Exercise 40 - creating schema & tables ***
+    Write the following SQL queries:
+        1. Create database and name it: "pet_clinic".
+        2. Create table "pets" with the following columns (choose appropriate data type):
+            id, name, type
+        3. Modify table and add column "date_of_birth", "age" and "color"
+        4. Now modify table and remove the "color" column
+        5. Create table "vets" with single column (id)
+        6. Delete table "vets"
+
+    !!! IMPORTANT !!!: Each SQL statement for each of the points in this exercise
+        has to be sent to teacher in slack.
+
+
+*** Exercise 41 - manipulating data ***
+    Write SQL queries necessary to complete the points below:
+        1. insert three pets in the "pets" table with the following values:
+            id - 1, name - Reksis, type - Husky, age - 5
+            id - 2, name - Buddy, type - Afador, age - 3
+            id - 3, name - Bailey, type - Akita, age 7
+            id - 4, name - Lucy, type - Auggie, age 11
+            id - 5, name - Oscar, type - Afador, age 8
+        2. Write query which updates age for a dog with name "Reksis" to 7
+        3. Write query which updates age to 7 for a any dog with name "Buddy" and type "Afador"
+        4. Write query which deletes all dogs with age greater than 10
+        5. Set date_of_birth for all dogs to be 1st January, year 2015
+        6. Alter column date_of_birth in table pets so it would not allow null
+          values and the default value of this column (if not specified when inserting entry) would be
+          current date. (see https://dev.mysql.com/doc/refman/8.0/en/data-type-defaults.html )
+        7.  Select the oldest pet in table
+        8.  Select youngest pet in table
+        9.  Select average age of pets in pets table
+        10. Count how many pets are there in table
+
+
+*** Exercise 42 - Primary and foreign key exercise ***
+    1. Modify id column of the pets table so it would be PRIMARY KEY, NOT NULL and AUTO INCREMENT
+    2. Try to insert a new pet without specifying id. What happened? Did
+        database automatically generate a id for you?
+    3. Now try to insert two different pet entries into database with the same id.
+        What happened when you tried doing that? What did MySQL console say?
+    4. Create new table "owners" with the following columns:
+        id - integer, PRIMARY KEY, NOT NULL and AUTO INCREMENT
+        first_name, last_name, address, city, telephone
+    5. Add three entries into owners table.
+        John, Jane and Max (last name, address, city and phone is up to you)
+    6. Now you have to create relation between owners and pets table.
+        a. Add owner_id column to pets table (data type should match the id column of owners table)
+        b. Update pets table so pets would have owners:
+            Reksis -> John
+            Buddy  -> Max
+            Bailey -> Max
+            Oscar  -> Jane
+        c. Now delete Jane from owners table.
+            Did this work?
+            Should this work and is the data in pets table correct/valid now?
+            What is the value of owner_id colum n for Oscar? Do you see a problem here?
+    7. Add foreign key constraint to owner_id column of pets table.
+         To which foreign key should this column point?
+         You will most likely fail initially when you try to do it. Read the error
+         and try to understand why. You might have to change data in one of the tables.
+    8. After you successfully created foreign key, inset Jane back into owners table.
+    9. Now try to delete owner with name 'Max'
+        Did it work? Why?
+        Should it work?
+    10. Add new pet with owner_id 1001. Did it work? Why?
+
+
+*** Exercise 43 - relationships and modeling database ***
+    You are an entrepreneur who wants to sell ice cream online and now with your new programming skills you
+    are going to develop online store to do just that!
+        * You want a page where visitors will be able to see a list of ice creams (id, name, price, description)
+        * Your customers will have to register to purchase ice cream, so you will also need to save information
+          about them. (email, address)
+        * Customers will be able to order products. A single order can consist of multiple products. And single
+          customer can have multiple orders. For example, customer Janis currently has the following orders:
+                order #1: 5x vanilla and 1x strawberry ice cream
+                order #2: 2x chocolate and 3 "Chocolate Chip Cookie Dough" ice creams
+           We also need to know the exact time customer made the order.
+
+     1. Before writing code, you first need to model a database. Read the requirements and identify tables, columns
+        and data types you will have to use/create for your database. (describe and send to teacher)
+     2. Identify what relationships you will have to create between those tables. (describe and send to teacher)
+     3. Now that you have a clear understanding of the database model/design, you can start implementing it in SQL!
+            a. Write the necessary SQL statements to create tables and relationships between them.
+            b. Insert some demo data in each of those tables
+     4. Send your results to teacher.
+
+
+*** Exercise 44 - model/create database ***
+    1. Design and write SQL scripts creating the database "company". We will have to save info about:
+       a. employees (first_name, last_name)
+       b. departments (department)
+       c. projects (description)
+       d. Each employee can be assigned to none or a single project
+       e. Each employee can be assigned to none or multiple departments
+    2. Insert some data:
+       a. employees:
+          Janis Logins
+          Juris Krastins
+          Ieva Liepina
+          Jana Spidola
+       b. departments:
+          HR, IT, Marketing, Admins
+       c. projects:
+          Online Gaming, Insurance, Banking system, Communications
+    8. Assign employees to departments:
+        Janis to IT and Marketing
+        Juris to IT
+        Ieva to HR
+    9. Assign employees to projects:
+        Jana to Online Gaming and Insurance
+        Ieva to Banking System and Insurance
+        Juris to Communications
+    10. Write SQL queries for displaying the following data:
+       a. departments that have no employees assigned to them
+       b. only departments which have employees assigned to them
+       c. first_name, last_name, department for all employees
+       d. all employees (first_name, last_name) that are in project with X name (for example, "Insurance").
+       e. first_name, last_name for all employees who are not assigned to department
+       f. first_name, last_name, department only for employees which are assigned to a department
+       g. All employees (first_name, last_name) in X department (for example, "IT") who name starts with "Ja"
+       h. first_name, last_name, project for all employees / projects
+       i. first_name, last_name, project for all employees / projects
+       b. "description" only for projects which have employees assigned to them
+
+
+*** Exercise 45 - JOINS ***
+    Now lets return to our ice shop database and write some queries on it:
+        1. write SQL statement which would return information for all customer orders:
+            (first_name, last name, order_id, order_time, ice_cream_name, quantity, price)
+        2. select the most ordered ice-creams and sort them by count in descending order
+            (ice_cream, count)
+        3. select customers with most orders (descending order)
+            first_name, order_count
+        4. select customers who have ordered most products in descending order (and only customers with more than 1
+        product)
+            first_name, product_count
+
+    !Note: Please make sure you have needed data in your DB and properly test each SQL statement you write.
+           You can always add additional data if you see something is missing.
