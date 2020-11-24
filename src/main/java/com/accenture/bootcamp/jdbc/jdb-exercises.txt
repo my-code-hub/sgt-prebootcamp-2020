@@ -5,7 +5,7 @@
         3) boolean update(Employee employee)
         4) boolean delete(id)
         5) List<Employee> find(int limit)
-        6) Employee findByDepartment(String departmentName);
+        6) List<Employee> findByDepartment(String departmentName);
 
     2)  Create class EmployeesMain and demonstrate the usage of all previosuly implemented methods
 
