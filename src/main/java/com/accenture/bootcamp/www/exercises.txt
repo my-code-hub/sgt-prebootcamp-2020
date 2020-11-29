@@ -1,0 +1,32 @@
+*** exercise 60 - Q/A ***
+    1) what is the difference between world wide web (www) and internet?
+    2) What is HTTP?
+    3) What is server - client?
+    4) Name few examples of clients in context of www.
+    5) What is a HTTP header? Show some example.
+    6) What is a HTTP cookie?
+    7) Difference between idempotent and non-idempotent HTTP method?
+    8) What is the difference between safe and unsafe http methods? Name some examples of both.
+    9) Which HTTP error code would you return if your server had error? (for example, had null pointer exception)
+
+**** exercise 61 - HTTP requests with postman ****
+    1) download and install postman - https://www.postman.com/downloads/
+    2) use postman to send HTTPS requests to [yourName].requestcatcher.com:
+        a) Send GET request to URL with path /java/bootcamp/a and query parameters:
+            message - Hello
+            name - [YourName]
+            surname - [YourSurname]
+
+           And header (key, value):
+                Hello - World!
+
+        b) Send POST request to URL with path /java/bootcamp/a with the following data in body:
+             firstName - [YourName]
+             lastName - [YourSurname]
+             iWillFinishThisCourse - [true or false]
+             booksYouLike - [list of books titles you like]
+             pet : [specify your existing or future pet object here with the folowing propertoes: name, type]
+             year : [what year this is]
+
+             !Note: the example above is not a JSON format, but you have to send data in JSON format! Please
+                   see JSON format examples and how
