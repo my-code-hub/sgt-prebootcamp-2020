@@ -1,5 +1,6 @@
 ************** exercise 60 **************
-    1) Define (using annotations) the following spring beans / dependencies:
+    1) Setup your spring project
+    2) Define (using annotations) the following spring beans / dependencies:
           BeanA (has no dependencies)
           BeanB (has dependency BeanA)
           BeanC (has dependency BeanA and BeanB)
@@ -7,7 +8,7 @@
 
         Tip: you will have to use @Component annotation.
 
-    2) Define (using configuration class) the following beans:
+    3) Define (using configuration class) the following beans:
         Owner (has no dependencies)
         Dog (has Owner property/dependency)
         Cat (has Owner property/dependency)
