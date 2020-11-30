@@ -1,9 +1,15 @@
-package com.accenture.bootcamp.spring.dependency.injection;
+package com.accenture.bootcamp.spring.examples.inversionofcontrol.withoutdependencyinjection;
 
 public class RegistrationService {
 
-    private UserRepository userRepository;
-    private EmailVerificationService emailVerificationService;
+    //dependencies
+    private final UserRepository userRepository;
+    private final EmailVerificationService emailVerificationService;
+
+    public RegistrationService() {
+        this.userRepository = new UserRepository();
+        this.emailVerificationService = new EmailVerificationService();
+    }
 
     public void register(User user) {
         String email = user.getEmail();

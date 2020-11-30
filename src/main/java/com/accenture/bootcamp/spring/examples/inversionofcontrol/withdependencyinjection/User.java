@@ -1,4 +1,4 @@
-package com.accenture.bootcamp.spring.dependency.injection;
+package com.accenture.bootcamp.spring.examples.inversionofcontrol.withdependencyinjection;
 
 public class User {
 

@@ -1,5 +1,8 @@
-package com.accenture.bootcamp.spring.dependency.injection;
+package com.accenture.bootcamp.spring.examples.inversionofcontrol.withdependencyinjection;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class EmailVerificationService {
 
     public void sendVerificationEmail(String sendToEmail) {

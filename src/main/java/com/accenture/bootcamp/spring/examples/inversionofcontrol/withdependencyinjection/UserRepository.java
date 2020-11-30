@@ -1,6 +1,9 @@
-package com.accenture.bootcamp.spring.dependency.injection;
+package com.accenture.bootcamp.spring.examples.inversionofcontrol.withdependencyinjection;
+
+import org.springframework.stereotype.Component;
 
 //data layer
+@Component
 class UserRepository {
 
     boolean isEmailUsedAlready(String email) {
