@@ -6,11 +6,13 @@ public class RegistrationService {
     private EmailVerificationService emailVerificationService;
 
     public void register(User user) {
-        if (userRepository.isEmailUsedAlready(user.getEmail())) {
-            throw new IllegalArgumentException("User with such email exists already!");
+        String email = user.getEmail();
+        if (userRepository.isEmailUsedAlready(email)) {
+            throw new IllegalArgumentException("User with " + email + " email exists already!");
         }
         System.out.println("email not found in database, registering new user");
         userRepository.insertIntoDatabase(user);
-        emailVerificationService.sendVerificationEmail(user.getEmail());
+        emailVerificationService.sendVerificationEmail(email);
+        //other business logic
     }
 }

@@ -1,6 +1,7 @@
 package com.accenture.bootcamp.spring.dependency.injection;
 
-public class UserRepository {
+//data layer
+class UserRepository {
 
     boolean isEmailUsedAlready(String email) {
         //search database and check if we already have
