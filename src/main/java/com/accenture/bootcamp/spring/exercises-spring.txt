@@ -31,3 +31,5 @@
            why it doesn't work?
         g) How could you configure your application so the instance of Triangle would be autowired
            into Figures class, shape1 property?
+
+        Tips: read about @Primary annotation
