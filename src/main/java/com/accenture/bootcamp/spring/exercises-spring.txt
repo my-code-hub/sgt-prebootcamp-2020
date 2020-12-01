@@ -33,3 +33,5 @@
            into Figures class, shape1 property?
 
         Tips: read about @Primary annotation
+
+    Homework: read/understand about @Qualifier annotation and bean naming.
