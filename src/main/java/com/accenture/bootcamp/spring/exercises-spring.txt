@@ -42,4 +42,4 @@
         b) what is spring bean and spring application context (latviski!)
         c) What is the default scope of spring beans? And how does it work?
 
-    Send the answers to the teacher.
+    Send the answers to the teacher. (yes, I will read them)
