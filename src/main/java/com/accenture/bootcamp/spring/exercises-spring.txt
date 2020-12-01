@@ -5,6 +5,8 @@
           BeanB (has dependency BeanA)
           BeanC (has dependency BeanA and BeanB)
         Autowiring should be done via constructor.
+    3) Start your spring application and see if it actually works
+        (make sure there are no exceptions)
 
         Tip: you will have to use @Component annotation.
 
@@ -13,6 +15,8 @@
         Dog (has Owner property/dependency)
         Cat (has Owner property/dependency)
         House (has Owner, Dog and Cat dependency)
+        Start your spring application and see if it actually works
+                (make sure there are no exceptions)
 
         Tip: You will have to use @Configuration and @Bean annotations for this.
 
