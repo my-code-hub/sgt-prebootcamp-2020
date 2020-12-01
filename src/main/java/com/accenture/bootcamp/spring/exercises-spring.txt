@@ -10,7 +10,7 @@
 
         Tip: you will have to use @Component annotation.
 
-    3) Define (using configuration class) the following beans:
+    4) Define (using configuration class) the following beans:
         Owner (has no dependencies)
         Dog (has Owner property/dependency)
         Cat (has Owner property/dependency)
@@ -20,7 +20,7 @@
 
         Tip: You will have to use @Configuration and @Bean annotations for this.
 
-    4) Autowiring by interface practice:
+    5) Autowiring by interface practice:
         a) Create interface Shape
         b) Create class Triangle which implements interface Shape (configure it so it's a spring bean)
         c) Create class Square which implements interface Shape (configure it so it's a spring bean)
