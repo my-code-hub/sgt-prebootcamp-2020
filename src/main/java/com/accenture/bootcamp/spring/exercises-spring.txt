@@ -34,4 +34,9 @@
 
         Tips: read about @Primary annotation
 
-    Homework: read/understand about @Qualifier annotation and bean naming.
+*************    Homework: *************
+    1) read/understand about @Qualifier annotation and bean naming.
+    2) Explain in your own words what is inversion of control and dependency injection (latviski!)
+    3) Explain in your own words what is spring bean and spring application context (latviski!)
+
+    Send the answers to the teacher.
