@@ -37,9 +37,17 @@
 
 ************* Homework *************
     1) read/understand about @Qualifier annotation and bean naming.
-    2) Explain in your own words:
-        a) what is inversion of control and dependency injection (latviski!)
-        b) what is spring bean and spring application context (latviski!)
+    2) Explain in your own words (latviski! :)):
+        a) what is inversion of control and dependency injection
+        b) what is spring bean and spring application context
         c) What is the default scope of spring beans? And how does it work?
 
     Send the answers to the teacher. (yes, I will read them)
+
+
+************** exercise 61 **************
+    1) design / create REST API for calculator
+        a) figure out which HTTP method will you use? (remember about safe / unsafe / idempotent / non-idempotent
+         HTTP methods)
+        b) Implement controller layer (CalculatorController)
+        c) implement service layer (CalculateService).
