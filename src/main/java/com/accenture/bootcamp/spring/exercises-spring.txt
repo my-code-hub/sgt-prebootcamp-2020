@@ -73,11 +73,58 @@
             complete (indicates if TO-DO item is complete or not)
 
         API which is needed:
-            GET      /todos/id    - returns a single ToDo item
-            GET      /todos       - returns all ToDO items
-            POST     /todos       - inserts/saves ToDO item on server (you will also need to generate a new ID)
-            PUT      /todos/id    - updates ToDo item on server
-            DELETE   /todos/id    - deletes TODO item on server
+            * GET      /todos/{id}    - returns a single ToDo item:
+                Example response:
+                    {
+                      "id":3,
+                      "title":"Learn programming",
+                      "complete":true
+                    }
+
+            * GET      /todos       - returns all ToDO items.
+                Example response:
+                    [
+                       {
+                          "id":3,
+                          "title":"Learn programming",
+                          "complete":true
+                       },
+                       {
+                          "id":7,
+                          "title":"go to gym",
+                          "complete":false
+                       }
+                    ]
+
+            * POST     /todos       - inserts/saves ToDO item on server (you will also need to generate a new ID)
+                Example request body:
+                    {
+                      "title": "buy groceries",
+                      "complete": false
+                    }
+                example response:
+                     {
+                       "id":3,
+                       "title":"buy groceries",
+                       "complete":false
+                     }
+
+            * PUT      /todos/{id}    - updates ToDo item on server
+                Example request:
+                    PUT /todos/4
+                    {
+                       "id":3,
+                       "title":"buy groceries",
+                       "complete":true
+                    }
+                Example response:
+                    {
+                       "id":3,
+                       "title":"buy groceries",
+                       "complete":true
+                    }
+
+            * DELETE   /todos/{id}    - deletes TODO item on server
 
         Hints:
             See DogsController to better understand how to create controller with these methods,
