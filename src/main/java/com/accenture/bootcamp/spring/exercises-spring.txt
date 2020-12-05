@@ -72,7 +72,15 @@
             title (text of what has to be done)
             complete (indicates if TO-DO item is complete or not)
 
+        API which is needed:
+            GET      /todos/id    - returns a single ToDo item
+            GET      /todos       - returns all ToDO items
+            POST     /todos       - inserts/saves ToDO item on server (you will also need to generate a new ID)
+            PUT      /todos/id    - updates ToDo item on server
+            DELETE   /todos/id    - deletes TODO item on server
+
         Hints:
+            See DogsController to better understand how to create controller with these methods,
             You will have to create the following classes:
                 ToDoItem
                 ToDoController
