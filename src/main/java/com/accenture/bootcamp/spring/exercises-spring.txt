@@ -52,6 +52,13 @@
         b) Implement controller layer (CalculatorController)
         c) implement service layer (CalculateService).
 
+        Hint:
+            The API could look like this:
+                /calculator/result?number1=10&number2=5&operation=add   (this can be a GET method)
+            And the response:
+                {
+                   "result" : 15
+                }
 
 ************** exercise 62 **************
     * Implement REST CRUD API for TO-DO list items. The item consists of three fields:
