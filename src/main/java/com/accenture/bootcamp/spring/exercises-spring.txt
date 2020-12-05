@@ -60,6 +60,12 @@
                    "result" : 15
                 }
 
+            So you will have to create:
+               CalculatorController class where you will define HTTP endpoint
+               Calculator class which has method "calculate" and accepts three parameters:
+                    number1, number2, operation
+               and will return Result object (which will contain "result" property).
+
 ************** exercise 62 **************
     * Implement REST CRUD API for TO-DO list items. The item consists of three fields:
             id (number)
