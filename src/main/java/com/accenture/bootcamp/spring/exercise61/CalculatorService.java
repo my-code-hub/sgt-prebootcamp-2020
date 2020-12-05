@@ -1,5 +1,7 @@
 package com.accenture.bootcamp.spring.exercise61;
 
+import com.accenture.bootcamp.spring.errors.CalculationException;
+
 import org.springframework.stereotype.Service;
 
 @Service

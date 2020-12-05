@@ -1,4 +1,4 @@
-package com.accenture.bootcamp.spring.exercise61;
+package com.accenture.bootcamp.spring.errors;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 @RestControllerAdvice
-public class CalculatorExceptionHandler {
+public class SpringExceptionHandler {
 
     //Similar to
     // } catch (CalculationException e) {
@@ -14,6 +14,12 @@ public class CalculatorExceptionHandler {
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     @ExceptionHandler(value = CalculationException.class)
     public ErrorResponse handle(CalculationException e) {
+        return new ErrorResponse(e.getMessage());
+    }
+
+    @ResponseStatus(HttpStatus.NOT_FOUND)
+    @ExceptionHandler(value = NotFoundException.class)
+    public ErrorResponse handle(NotFoundException e) {
         return new ErrorResponse(e.getMessage());
     }
 

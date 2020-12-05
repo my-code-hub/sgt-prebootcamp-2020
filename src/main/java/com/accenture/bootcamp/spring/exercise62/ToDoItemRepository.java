@@ -8,9 +8,9 @@ public interface ToDoItemRepository {
 
     List<ToDoItem> findAll();
 
-    ToDoItem insert(ToDoItem item);
+    ToDoItem insert(ToDoItemRequest item);
 
-    ToDoItem update(long id, ToDoItem item);
+    ToDoItem update(long id, ToDoItemRequest item);
 
     void delete(long id);
 }
