@@ -51,3 +51,18 @@
          HTTP methods)
         b) Implement controller layer (CalculatorController)
         c) implement service layer (CalculateService).
+
+
+************** exercise 62 **************
+    * Implement REST CRUD API for TO-DO list items. The item consists of three fields:
+            id (number)
+            title (text of what has to be done)
+            complete (indicates if TO-DO item is complete or not)
+
+        Hints:
+            You will have to create the following classes:
+                ToDoItem
+                ToDoController
+                ToDoRepository
+                    This class will store ToDo items. Decide which data structure / collection
+                    you want to use for storing the items.
