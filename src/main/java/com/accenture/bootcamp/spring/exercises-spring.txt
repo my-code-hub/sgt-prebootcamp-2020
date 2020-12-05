@@ -84,6 +84,6 @@
             You will have to create the following classes:
                 ToDoItem
                 ToDoController
-                ToDoRepository
+                ToDoRepository (you have to implement ToDoItemRepository interface)
                     This class will store ToDo items. Decide which data structure / collection
                     you want to use for storing the items.
