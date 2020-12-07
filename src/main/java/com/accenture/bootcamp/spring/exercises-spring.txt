@@ -66,6 +66,7 @@
                     number1, number2, operation
                and will return Result object (which will contain "result" property).
 
+
 ************** exercise 62 **************
     * Implement REST CRUD API for TO-DO list items. The item consists of three fields:
             id (number)
@@ -134,3 +135,22 @@
                 ToDoRepository (you have to implement ToDoItemRepository interface)
                     This class will store ToDo items. Decide which data structure / collection
                     you want to use for storing the items.
+
+
+************** exercise 63 **************
+     1) Create class PersistentToDoRepository which implements ToDoItemRepository
+     2) Mark it as a @Primary bean
+     3) This implementation has to communicate with MySQL DB for ToDO item CRUD.
+     4) Create database with name "sgt_bootcamp_2020" and the corresponding table for to do items in your MySql database
+     5) Configure your spring application data source so it connects to your database
+     6) You will have to create ToDoItemMapper interface where you will specify querues and use MyBatis to map
+        SQL query results to java objects.
+
+     Hints:
+        Let's use MyBatis for easier object mapping.
+            Read how to add and us e MyBatis to Spring project - https://mybatis
+            .org/spring-boot-starter/mybatis-spring-boot-autoconfigure/
+
+        another example: https://www.baeldung.com/spring-mybatis
+
+        To find out, google about MyBatis spring boot examples
