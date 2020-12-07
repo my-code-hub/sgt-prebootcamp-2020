@@ -148,9 +148,9 @@
 
      Hints:
         Let's use MyBatis for easier object mapping.
-            Read how to add and us e MyBatis to Spring project - https://mybatis
-            .org/spring-boot-starter/mybatis-spring-boot-autoconfigure/
+            Read how to add and us e MyBatis to Spring project:
+            https://mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/
 
-        another example: https://www.baeldung.com/spring-mybatis
+            another example: https://www.baeldung.com/spring-mybatis
 
         To find out, google about MyBatis spring boot examples
