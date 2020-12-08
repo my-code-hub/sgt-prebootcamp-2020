@@ -154,3 +154,9 @@
             another example: https://www.baeldung.com/spring-mybatis
 
         To find out, google about MyBatis spring boot examples
+
+
+************** exercise 64 **************
+    1) Remember the "company" database which we created in exercise 44? Now change the configuration
+      of you spring application so it would connect to this database instead.
+    2) And now create CRUD API for employees. (similar as we did with ToDO items now)

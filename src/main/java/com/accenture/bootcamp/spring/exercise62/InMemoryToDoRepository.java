@@ -41,9 +41,9 @@ public class InMemoryToDoRepository implements ToDoItemRepository {
     }
 
     public ToDoItem insert(ToDoItemRequest request) {
-        ToDoItem item = new ToDoItem(request);
-        item.setId(sequence.next());
-        items.add(item);
+        ToDoItem item = new ToDoItem(request); //Thread 1
+        item.setId(sequence.next()); //Thread 3
+        items.add(item);//Thread 2
         return item;
     }
 

@@ -2,7 +2,7 @@ package com.accenture.bootcamp.spring.exercise62;
 
 import java.util.Objects;
 
-class ToDoItem {
+public class ToDoItem {
     private long id;
     private String title;
     private boolean complete;
@@ -17,7 +17,6 @@ class ToDoItem {
     }
 
     public ToDoItem(ToDoItemRequest request) {
-        this.id = id;
         this.title = request.getTitle();
         this.complete = request.isComplete();
     }
