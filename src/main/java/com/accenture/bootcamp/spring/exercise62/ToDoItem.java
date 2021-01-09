@@ -3,14 +3,14 @@ package com.accenture.bootcamp.spring.exercise62;
 import java.util.Objects;
 
 public class ToDoItem {
-    private long id;
+    private Long id;
     private String title;
     private boolean complete;
 
     public ToDoItem() {
     }
 
-    public ToDoItem(long id, String title, boolean complete) {
+    public ToDoItem(Long id, String title, boolean complete) {
         this.id = id;
         this.title = title;
         this.complete = complete;

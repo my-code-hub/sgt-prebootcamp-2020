@@ -1,11 +1,6 @@
 package com.accenture.bootcamp.spring.exercise62;
 
-import org.apache.ibatis.annotations.Delete;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Options;
-import org.apache.ibatis.annotations.Select;
-import org.apache.ibatis.annotations.Update;
+import org.apache.ibatis.annotations.*;
 
 import java.util.List;
 
@@ -32,4 +27,16 @@ public interface ToDoItemMapper {
 
     @Delete("delete from todo_items where id = #{id}")
     boolean deleteById(long id);
+
+    @Insert({
+            "<script>" +
+                "insert into todo_items (title, complete) values" +
+                "<foreach item='toDoItem' collection='items' open='' separator=',' close=''>" +
+                "(" +
+                    "#{toDoItem.title}," +
+                    "#{toDoItem.complete}" +
+                ")" +
+                "</foreach>" +
+            "</script>"})
+    void insertMultiple(@Param("items") List<ToDoItem> items);
 }

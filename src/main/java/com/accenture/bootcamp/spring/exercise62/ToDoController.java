@@ -12,15 +12,19 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
+import static java.util.Arrays.asList;
+
 @RequestMapping("/todos")
 @RestController
 public class ToDoController {
 
     private final ToDoItemRepository repository;
+    private final ToDoItemMapper mapper;
 
     @Autowired
-    public ToDoController(ToDoItemRepository repository) {
+    public ToDoController(ToDoItemRepository repository, ToDoItemMapper mapper) {
         this.repository = repository;
+        this.mapper = mapper;
     }
 
     @GetMapping("/{id}")
@@ -47,5 +51,15 @@ public class ToDoController {
     @DeleteMapping("/{id}")
     public void delete(@PathVariable long id) {
         repository.delete(id);
+    }
+
+    @GetMapping("/test-insert-multiple")
+    public List<ToDoItem> testInsertMore() {
+        List<ToDoItem> items = asList(
+                new ToDoItem(null, "Item 100", false),
+                new ToDoItem(null, "Item 101", true)
+        );
+        mapper.insertMultiple(items);
+        return repository.findAll();
     }
 }
